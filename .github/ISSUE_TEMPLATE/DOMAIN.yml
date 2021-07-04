@@ -14,7 +14,7 @@ body:
     attributes:
       label: Your site CNAME
       description: Your git CNAME domain.
-      placeholder: ***.github.io.
+      placeholder: "***.github.io."
     validations:
       required: true
   - type: textarea
