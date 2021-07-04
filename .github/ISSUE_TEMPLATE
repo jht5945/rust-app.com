@@ -1,0 +1,27 @@
+name: Domain Request
+description: Request a domain CNAME bind
+title: "[Domain Bind]: "
+labels: [domain]
+assignees:
+  - jht5945
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bind *.rust-app.com to your own git page!
+  - type: input
+    id: sitecname
+    attributes:
+      label: Your site CNAME
+      description: Your git CNAME domain.
+      placeholder: ***.github.io.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Description
+      placeholder: Your description
+    validations:
+      required: true
